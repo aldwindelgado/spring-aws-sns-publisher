@@ -1,0 +1,13 @@
+server:
+    port: 7088
+
+cloud:
+    aws:
+        region:
+            static: ap-southeast-1
+        stack:
+            auto: false # disable AWS Cloudformation config gathering
+
+app:
+    sns:
+        topic: aws-sns-topic-sample
